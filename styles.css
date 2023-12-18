@@ -10,14 +10,17 @@ body {
     max-width: 800px;
     margin: 50px auto;
     background-color: #F0DBDB;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Updated box shadow values */
 }
+
 
 h1 {
     text-align: center;
     color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 
 form {
