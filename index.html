@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Brain Assessment</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Left or Right Brain Dominance Assessment</h1>
+        <p>Answer the following questions to discover if you lean more towards left-brained or right-brained thinking!
+        </p>
+        <form id="brainForm">
+            <label for="q1">1. Do you prefer logical and analytical thinking over creative and intuitive
+                thinking?</label>
+            <select name="q1" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <label for="q2">2. Are you more organized and detail-oriented than spontaneous and flexible?</label>
+            <select name="q2" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <label for="q3">3. Do you enjoy solving math problems or puzzles?</label>
+            <select name="q3" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <label for="q4">4. Are you often drawn to art, music, or other creative expressions?</label>
+            <select name="q4" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <label for="q5">5. Are you generally more interested in facts and data than theories and
+                possibilities?</label>
+            <select name="q5" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <label for="q6">6. Do you find joy in exploring new ideas and thinking outside the box?</label>
+            <select name="q6" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <label for="q7">7. Do you enjoy hands-on activities and learning through practical experiences?</label>
+            <select name="q7" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <label for="q8">8. Are you good at remembering names, dates, and specific details?</label>
+            <select name="q8" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <label for="q9">9. Do you often rely on your intuition and gut feelings when making decisions?</label>
+            <select name="q9" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <label for="q10">10. Are you comfortable with ambiguity and open to exploring various perspectives?</label>
+            <select name="q10" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="left">Yes</option>
+                <option value="right">No</option>
+            </select>
+
+            <button type="button" onclick="calculateResult()">Submit</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
